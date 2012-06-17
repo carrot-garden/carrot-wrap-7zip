@@ -1,13 +1,7 @@
-<!--
-
-    Copyright (C) 2010-2012 Andrei Pozolotin <Andrei.Pozolotin@gmail.com>
-
-    All rights reserved. Licensed under the OSI BSD License.
-
-    http://www.opensource.org/licenses/bsd-license.php
-
--->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!-- Copyright (C) 2010-2012 Andrei Pozolotin <Andrei.Pozolotin@gmail.com> 
+	All rights reserved. Licensed under the OSI BSD License. http://www.opensource.org/licenses/bsd-license.php -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -19,15 +13,14 @@
 
 	<groupId>com.carrotgarden.wrap</groupId>
 	<artifactId>carrot-wrap-7zip</artifactId>
-	<version>9.20-carrot001</version>
+	<version>9.20-carrot001-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<scm>
-		<url>https://github.com/carrot-garden/carrot-wrap</url>
-		<connection>scm:git:git://github.com/carrot-garden/carrot-wrap.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/carrot-garden/carrot-wrap.git</developerConnection>
-	  <tag>carrot-wrap-7zip-9.20-carrot001</tag>
-  </scm>
+		<url>https://github.com/carrot-garden/carrot-wrap-7zip</url>
+		<connection>scm:git:git://github.com/carrot-garden/carrot-wrap-7zip.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/carrot-garden/carrot-wrap-7zip.git</developerConnection>
+	</scm>
 
 	<description>
 		bundle wrapper for 
@@ -37,13 +30,13 @@
 	<properties>
 
 		<carrotJavaVersion>1.6</carrotJavaVersion>
-		
+
 		<!-- 7zip version -->
 		<fileName>lzma920</fileName>
-		
+
 		<fileNameTar>${fileName}.tar</fileNameTar>
 		<fileNameTarBz2>${fileNameTar}.bz2</fileNameTarBz2>
-		
+
 		<sourceURL>http://downloads.sourceforge.net/sevenzip/</sourceURL>
 		<targetFolder>${basedir}/target</targetFolder>
 
@@ -122,7 +115,7 @@
 
 		<pluginManagement>
 			<plugins>
-			
+
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
 					<artifactId>lifecycle-mapping</artifactId>
@@ -162,10 +155,10 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
-				
+
 			</plugins>
 		</pluginManagement>
-		
+
 	</build>
 
 </project>

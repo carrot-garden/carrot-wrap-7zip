@@ -12,14 +12,14 @@
 
 	<groupId>com.carrotgarden.wrap</groupId>
 	<artifactId>carrot-wrap-7zip</artifactId>
-	<version>9.20-build004-SNAPSHOT</version>
+	<version>9.20-build004</version>
 	<packaging>bundle</packaging>
 
 	<scm>
 		<url>https://github.com/carrot-garden/carrot-wrap-7zip</url>
 		<connection>scm:git:git://github.com/carrot-garden/carrot-wrap-7zip.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/carrot-garden/carrot-wrap-7zip.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>carrot-wrap-7zip-9.20-build004</tag>
   </scm>
 
 	<description>

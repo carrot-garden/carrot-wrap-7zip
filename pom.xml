@@ -12,7 +12,7 @@
 
 	<groupId>com.carrotgarden.wrap</groupId>
 	<artifactId>carrot-wrap-7zip</artifactId>
-	<version>9.20-carrot003-SNAPSHOT</version>
+	<version>9.20-build003-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<scm>
